@@ -15,7 +15,7 @@ build:
     - which npm
     - npm -v
     
-  pre_ci_boot:
-    image_name: drydock/u14nodall
-    image_tag: master
-    pull: true 
+  #pre_ci_boot:
+    #image_name: drydock/u14nodall
+    #image_tag: master
+    #pull: true 
