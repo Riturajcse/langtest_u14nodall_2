@@ -17,6 +17,6 @@ build:
     - npm -v
     
   pre_ci_boot:
-    image_name: niranjanhub/u16nodall
+    image_name: drydockaarch64/u16nodall
     image_tag: master
-    #pull: true 
+    pull: true 
