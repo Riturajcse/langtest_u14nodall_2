@@ -15,6 +15,7 @@ build:
     - node --version
     - which npm
     - npm -v
+    - /u16nodall/test/_node.sh
     
   pre_ci_boot:
     image_name: niranjanhub/u16nodall
